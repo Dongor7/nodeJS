@@ -1,0 +1,17 @@
+{
+  "name": "task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "axios.js",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "log4js": "^2.5.2",
+    "node-fetch": "^1.7.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ./script/axios ./txt/urls.txt ./txt/result.txt"
+  },
+  "author": "your name <your email> (your site url)",
+  "license": "ISC"
+}
